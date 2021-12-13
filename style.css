@@ -5,5 +5,25 @@ html{
 }
 
 body{
-    
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(5, 133, 5);
+    background: linear-gradient(90deg,rgb(5, 133, 5),rgb(23, 214, 23), rgb(7, 243, 7));
 }
+
+main{
+    width: 940px;
+    margin: 100px auto 0;
+}
+
+.login{
+    width: 50%;
+    /*background: white;*/
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login img{
+    width: 10%;
+}
+
