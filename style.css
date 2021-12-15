@@ -16,14 +16,37 @@ main{
     margin: 100px auto 0;
 }
 
-.login{
+main section{
+    float: left;
     width: 50%;
-    /*background: white;*/
+    box-sizing: border-box;
+}
+
+.login{
     text-align: center;
-    color: #FFFFFF;
 }
 
 .login img{
-    width: 10%;
+    width: 12%;
 }
 
+.login h2{
+    font-size: 30px;
+}
+
+.login p{
+    font-size: 18px;
+}
+
+.login button{
+    width: 40%;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.cadastro{
+}
