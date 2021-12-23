@@ -49,4 +49,10 @@ main section{
 }
 
 .cadastro{
+
+}
+
+.campos input{
+    border-radius: 20px;
+    width: 45%;
 }
