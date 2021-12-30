@@ -48,11 +48,15 @@ main section{
     cursor: pointer;
 }
 
-.cadastro{
-
+.cadastro h2{
+    font-size: 30px;
+    text-align: center;
 }
 
 .campos input{
     border-radius: 20px;
     width: 45%;
+    margin-bottom: 20px;
+    height: 30px;
+    border: none;
 }
