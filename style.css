@@ -48,15 +48,33 @@ main section{
     cursor: pointer;
 }
 
+.cadastro{
+    background: #FFFFFF;
+    border-radius: 1px 105px 105px 1px;
+    height: 300px;
+}
+
 .cadastro h2{
     font-size: 30px;
     text-align: center;
 }
 
 .campos input{
-    border-radius: 20px;
     width: 45%;
     margin-bottom: 20px;
-    height: 30px;
     border: none;
+    border-bottom: solid 1px #000000;
+    height: 30px;
+    outline: none;
+}
+
+.campos button{
+    width: 40%;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    background: rgb(23, 214, 23);
 }
